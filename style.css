@@ -7,6 +7,7 @@ h1{color:rgb(209, 230, 23)}
     display:flex;
 margin: 15px;
 justify-content: space-between;
+position:absolute;
 }
 .desc{
     background-color: rgb(188, 187, 204);
@@ -67,5 +68,9 @@ a:visited{
 }
 .grid img{
 background-color: #a9733c;
+position: relative;
 
+}
+.main:hover{
+    transform: scale(1.2);
 }
